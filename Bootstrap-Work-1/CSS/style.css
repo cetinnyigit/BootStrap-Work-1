@@ -1,0 +1,37 @@
+/* body arkaplanı istenilen renk olan #e9ecef yapildi ve margin sifirlandi */
+body{
+    background-color: #E9ECEF;
+    margin: 0%;
+}
+.navbar{
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+}
+
+li a:hover{
+    background-color:rgb(243, 245, 220);
+    border-radius: 5px;
+    color: rgb(34, 6, 56);
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+ul.index-ul{
+    list-style:inside;
+    list-style-type:circle;
+    background-color: #E9ECEF;
+    display: inline-block;
+    text-align: left;
+    margin-bottom:20px;
+}
+
+.tasarim{
+    color: white;
+}
